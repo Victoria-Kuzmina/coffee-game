@@ -1,0 +1,139 @@
+
+    
+   body{
+         background: #86592d; 
+         border:  double #604020 25px;
+         border-radius: 3px 3px 3px 3px;
+       }
+       .container{
+         background: #c68c53;
+         border-radius:3px 3px 3px 3px;
+       }
+       #show{
+         margin-top: 7px; 
+         background: #1ceb31;
+         border: black;
+         color: black;
+         box-shadow: 2px 2px 2px 2px black;
+       }
+       #hold{
+         margin-top: 5px;
+         background: red;
+         border: black;
+         color: black;
+         box-shadow: 2px 2px 2px 2px black;
+       }
+       #change{
+         margin-top: 10px;
+         background: yellow;
+         border: black;
+         color: black;
+         box-shadow: 2px 2px 2px 2px black;
+         width:104%;
+       }
+       #game{
+          position: fixed;
+          height: 240px;
+          weigth: 240px;
+          right: 130px;
+          bottom: 28px;
+          border: solid black 2px;
+       }
+       #display{
+          width: 105%;
+          height: 150px;
+          background: #ecd9c6;
+          color: black;
+          box-shadow: 2px 2px 2px 2px #464747;
+          border: groove black 5px;
+          text-align: center;
+          font-family: Verdana, Helvetica, Arial, sans-serif;
+          font-weight:bold;
+          text-transform: uppercase;
+          border-radius: 7px;
+          margin-top: 5px;
+         }
+       #bill_acc{
+          margin-top: 5px;
+       }
+       #coffee{
+          width:200px;
+          height:200px;
+          display: none;
+          filter: contrast(95%);
+          margin-top:10px;
+          cursor:pointer;
+       }
+       #coffee:hover{
+          filter: contrast(105%);
+       }
+       #change_tray {
+          position:relative;
+          width:100%;
+          height:100px;
+          background: silver;
+          border-radius: 0 5px 5px 5px;
+          box-shadow: 2px 2px 2px 2px #464747;
+      }
+       #coffee_tray{
+         position:relative;
+         margin-top:8px;
+          width:104%;
+          height:170px;
+       }
+       .left-side{
+          padding:2rem;
+       }
+       .button{
+          color: black;
+       }
+       .coffee-title{
+          background:#996633;
+          font-size:2rem;
+          border-radius: 50px 10px 10px 50px;
+          margin: 1rem;
+          border: 2px solid black;
+          box-shadow: 2px 2px 2px 2px #464747;
+          font-family: Verdana, Helvetica, Arial, sans-serif;
+          color: black;
+       }
+       .coffee-btn{
+          background: Brown;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 1px solid black;
+       }
+      .coffee-btn:hover {
+         background: red;
+         cursor: pointer;
+      }
+      .coffee-btn:active{
+        background: maroon;
+      }
+      .coffee-btn + p{
+        margin:0 0 0 1rem;
+      
+      }
+      .progress{
+        display: none;
+      }
+     
+      img[src$="rub.jpg"]{
+        cursor:pointer;
+      }
+      img[src$="rub.jpg"]:hover{
+        filter: contrast(130%);
+      }
+      img[src$="rub.png"]{
+        cursor:pointer;
+        width:64px;
+        position: absolute;
+      }
+      img[src$="rub.png"]:hover{
+        filter: contrast(130%);
+      }
+      img[src$="ground.png"]{
+         width:64px;
+        position: absolute;
+      }
